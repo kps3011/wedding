@@ -410,8 +410,12 @@
 
 
     $(document).ready(function() {
+      var items = 3;
+      if ($(window).width() < 700) {
+      	items = 1;
+      }
       $("#lightSlider").lightSlider({
-        item: 3,
+        item: items,
         autoWidth: false,
         slideMove: 1, // slidemove will be 1 if loop is true
         slideMargin: 10,
