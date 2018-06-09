@@ -1845,4 +1845,19 @@ form label {
   width: inherit;
 }
 
+.lightSlider p {
+  top: 241px;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  background: #000;
+}
+
+.lightSlider li div {
+  background-size: cover;
+  height:300px;
+}
+
 /*# sourceMappingURL=style.css.map */
