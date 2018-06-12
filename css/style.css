@@ -530,6 +530,16 @@ h1, h2, h3, h4, h5, h6, figure {
   .timeline > li > .timeline-panel:after {
     top: 31px;
   }
+  .fh5co-cover .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../img/bgsmall2.jpeg');
+    background-size: cover;
+  }
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
