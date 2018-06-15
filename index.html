@@ -104,7 +104,6 @@
 						<li>
 							<a href="javascript:void(0)" onclick="scrollToElement('#fh5co-gallery',600)">Gallery</a>
 						</li>
-						<li><a href="javascript:void(0)" onclick="scrollToElement('#fh5co-contact',600)">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -172,7 +171,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Special Events</span>
 					<h2>Wedding Events</h2>
-					<p>We want all of you to join us on our memorable days, We will really be honored by your presence, Please come and bless us for a wonderful life.</p>
+					<p style="color:#fff">We want all of you to join us on our memorable days, We will really be honored by your presence, Please come and bless us for a wonderful life.</p>
 				</div>
 			</div>
 			<div class="row">
@@ -298,19 +297,43 @@
 			<div class="row row-bottom-padded-md  animate-box">
 		    <ul id="lightSlider" style="height: 300px;">
           <li>
-            <img src="img/adcc1.jpg"/>
+            <div style="background-image:url('img/bgmobile.jpg')">
+            </div>
           </li>
           <li>
-            <img src="img/adcc2.jpg"/>
+            <div style="background-image:url('img/adcc5.jpg')">
+            </div>
           </li>
           <li>
-            <img src="img/adcc3.jpg"/>
+            <div style="background-image:url('img/together.jpg')">
+            </div>
           </li>
           <li>
             <img src="img/adcc4.jpg"/>
           </li>
           <li>
-            <img src="img/adcc5.jpg"/>
+            <div style="background-image:url('img/adfamily.jpg');background-position-y: -158px;">
+            </div>
+          </li>
+          <li>
+          	<div style="background-image:url('img/moments2.jpg')">
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/moments1.jpg')">
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/cc/officetime.jpg')">
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/cc/office2.jpg')">
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/ad/fam2.jpg'); background-position-y: -50px;">
+            </div>
           </li>
         </ul>
       </div>
@@ -342,8 +365,18 @@
             </div>
           </li>
           <li>
-            <div style="background-image:url('img/ad/fam4.jpg');">
+            <div style="background-image:url('img/ad/badidijiju.jpeg');background-position-y: -50px;">
               <p>Badi Di, Jiju & Shubh</p>
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/closestbrother.jpg');    background-position-y: -150px;">
+              <p>Little (Closest Brother)</p>
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/adfam1.jpg');">
+              <p>Siblings</p>
             </div>
           </li>
           <li>
@@ -366,19 +399,49 @@
       <div class="row row-bottom-padded-md  animate-box">
         <ul id="lightSlider3" style="height: 300px;">
           <li>
-            <img src="img/adcc1.jpg"/>
+            <div style="background-image:url('img/cc/mapa.jpg')">
+              <p>Mummy Papa</p>
+            </div>
           </li>
           <li>
-            <img src="img/adcc2.jpg"/>
+            <div style="background-image:url('img/cc/dijiju.jpg');background-position-y: 380px;">
+              <p>Di & Jiju</p>
+            </div>
           </li>
           <li>
-            <img src="img/adcc3.jpg"/>
+            <div style="background-image:url('img/cc/prinsu.jpg')">
+              <p>Piyush (Caring Bro)</p>
+            </div>
           </li>
           <li>
-            <img src="img/adcc4.jpg"/>
+            <div style="background-image:url('img/cc/kunnu.jpg')">
+              <p>Akash (My Kunnu)</p>
+            </div>
           </li>
           <li>
-            <img src="img/adcc5.jpg"/>
+            <div style="background-image:url('img/shivam.jpg')">
+              <p>Shivam</p>
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/badepa.jpg'); background-position-y: -64px;">
+              <p>Bade Pa</p>
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/badima.jpg'); background-position-y: -80px;">
+              <p>Badi Ma</p>
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/cc/cousins.jpg'); background-position-y: -208px;">
+              <p>Cousins</p>
+            </div>
+          </li>
+          <li>
+            <div style="background-image:url('img/nanads.jpg'); background-position-y: 0px;">
+              <p>Nanads</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -434,7 +497,7 @@
         enableUtc: false
     });
 
-      var scrollToElement = function(el, ms){
+      var scrollToElement = function(el, ms) {
         var speed = (ms) ? ms : 600;
         $('html,body').animate({
             scrollTop: $(el).offset().top
